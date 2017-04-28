@@ -1,0 +1,19 @@
+1) HDFS : 
+   The file store in HDFS provides scalable, fault-tolerant at low cost
+   The HDFS software detects and compensates for hardware issues, including disk problems and server failure.
+   HDFS stores files across the collection of servers in a cluster.
+   Files are decomposed into blocks and each block is written to more than one of the servers.
+   The replication provides both fault-tolerant and performes.
+   
+2) Hadoop cluster :
+   Hadoop clusters are used to store large files.
+   Recently data storages has grown exponentially than past, but reeding speed has not increased radically.
+   Hadoop clusters are used to read the files of around 1TB in 2 minutes.
+   The Speed of the Hadoop clusters is 100 times to that of a single driver.
+   In 2010, the time taken for 1TB file was 3 Hours. But not time taken for 1TB is 2 Minutes
+
+3) HDFS Blocks :
+   Hard Disk forms tracks from concentric circles..
+   One file contains many blocks which is in a local system are 512 bytes and are not necessarily continuous
+   HDFS is designed for large files, so it's block size is 128.
+   The use of HDFS Blocks is to get blocks of local system into Hadoop to reduce head seek time
